@@ -1,9 +1,9 @@
 CC = gcc
 
-day-01-1-trebuchet: day-01-1-trebuchet/sol
+day-01-trebuchet: day-01-trebuchet/1/sol
 
-day-01-1-trebuchet/sol: day-01-1-trebuchet/sol.c
-	$(CC) -o day-01-1-trebuchet/sol day-01-1-trebuchet/sol.c
+day-01-trebuchet/1/sol: day-01-trebuchet/1/sol.c
+	$(CC) -o day-01-trebuchet/1/sol day-01-trebuchet/1/sol.c
 
 clean:
-	rm */sol
+	rm */*/sol
